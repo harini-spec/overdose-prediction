@@ -6,7 +6,7 @@
 ## AIM/OBJECTIVE:
 
 - [ ] This system finds what type of drug a person might be addicted to based on <br/> various factors derived from the dataset
-- [ ] Finding addicts will reduce the crime rate, violence and deaths <br/> due to overdose                                                     
+- [ ] Finding addicts will reduce the crime rate, violence and deaths due to <br/> overdose                                                     
 
 ## Instructions to run it locally:
 
