@@ -12,6 +12,7 @@
 
 - [ ] Activate conda environment
 </br>
+
 - [ ] Install the requirements
 
 ```
