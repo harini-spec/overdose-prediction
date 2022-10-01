@@ -2,13 +2,6 @@ import streamlit as st
 import pickle
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
-import plotly.offline as py
-from plotly.graph_objs import Scatter, Layout
-py.init_notebook_mode(connected=True)
-import plotly.graph_objs as go
-import plotly.figure_factory as ff
 
 model = pickle.load(open('model_reg.pkl','rb'))
 model1 = pickle.load(open('model_reg_Alcohol.pkl','rb'))

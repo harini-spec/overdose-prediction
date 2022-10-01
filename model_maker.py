@@ -13,7 +13,6 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score,classification_report,confusion_matrix
-import neattext.functions as nfx
 from sklearn.pipeline import Pipeline
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.preprocessing import LabelEncoder
@@ -22,7 +21,7 @@ from sklearn.svm import SVC
 
 
 CSV_FILE_PATH       = 'drug_consumption.csv'
-MODEL_PICKLE_PATH   = 'model_reg_VSA.pkl'
+MODEL_PICKLE_PATH   = 'model_reg.pkl'
 # VECTOR_PICKLE_PATH  = 'count_vect_5.pkl'
 
 class MLSingleton:
@@ -84,7 +83,7 @@ class MLSingleton:
 
         feature_col_names = ['Age', 'Gender', 'Education', 'Country', 'Ethnicity', 'Nscore',
        'Escore', 'Oscore', 'Ascore', 'Cscore', 'Impulsive', 'SS']
-        predicted_class_names = ['User_VSA']
+        predicted_class_names = ['User_Benzos']
 
         X = copy_df[feature_col_names].values
         y = copy_df[predicted_class_names].values
