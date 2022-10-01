@@ -10,19 +10,19 @@
 
 ## Instructions to run it locally:
 
-- [ ] Activate conda environment
+Activate conda environment
 </br>
 
-- [ ] Install the requirements
+Install the requirements
 
 ```
 pip install -r requirements.txt  
 ```
 
-- [ ] Run the model for all the drugs and create seperate pickle files
+Run the model for all the drugs and create seperate pickle files
 
     
-- [ ]  To run streamlit  
+To run streamlit  
 ```
 streamlit run streamlit.py
 ```  
